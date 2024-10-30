@@ -1,0 +1,4 @@
+##Get request for app controller
+// Get request for app controller
+
+GET http:\\localhost:3000\ 

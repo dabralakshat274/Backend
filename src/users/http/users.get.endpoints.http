@@ -1,0 +1,2 @@
+GET http://localhost:3000/users/2222/?limit=10&page=1
+Content-Type: application/json
