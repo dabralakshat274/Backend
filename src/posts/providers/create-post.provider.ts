@@ -46,7 +46,7 @@ export class CreatePostProvider {
             if(author){
                 throw new BadRequestException();
             }
-            if(createPostDto.tags.length != tags.length){
+            if(createPostDto.tags.length !== tags.length){
                 throw new BadRequestException("Please check your Tag id's")
             }
         //Create posts

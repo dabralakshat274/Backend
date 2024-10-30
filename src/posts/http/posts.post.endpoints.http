@@ -4,8 +4,7 @@ exports.publishOn = new Date().toString()
 
 POST HTTP://localhost:3000/posts
 Content-Type:application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjM3LCJlbWFpbCI6Im1hcmtkb2UxMjNAZ21haWwuY29tIiwiaWF0IjoxNzMwMjc0NDAzLCJleHAiOjE3MzAyNzgwMDMsImF1ZCI6ImxvY2FsaG9zdDozMDAwIiwiaXNzIjoibG9jYWxob3N0OjMwMDAifQ.zGNvy5QY1tTqtPPOREotYAZxrfGiBEX_vhbh4Nw5_fw
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjM3LCJlbWFpbCI6Im1hcmtkb2UxMjNAZ21haWwuY29tIiwiaWF0IjoxNzMwMjgxMjM1LCJleHAiOjE3MzAyODQ4MzUsImF1ZCI6ImxvY2FsaG9zdDozMDAwIiwiaXNzIjoibG9jYWxob3N0OjMwMDAifQ.5Yu_xAGmaZwLXdpxgbFR9yhGdtEN817FJdZ_sl6VhcM
 
 {
     "title":"What's new with NestJS",
@@ -23,5 +22,5 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjM3LCJlbWFpb
     "metaValue":"{ \"sidebarEnabled\":true,\"footerActive\":true}"
     },
     //"authorId":12,
-    "tags":[1,2]
+    "tags":[1,3]
 }
